@@ -91,7 +91,7 @@ public class Juegos {
 
     @Override
     public String toString() {
-        return "nombre=" + nombre + ", tipo=" + tipo + ", consola=" + consola + ", dlc=" + dlc + ", precio=" + precio + ", estado=" + estado + ", unidades=" + unidades;
+        return "nombre:" + nombre + ",tipo:" + tipo + ",consola:" + consola + ",dlc:" + dlc + ",precio:" + precio + ",estado:" + estado + ",unidades:" + unidades;
     }
 
     public Juegos nuevoJuego() {
@@ -103,7 +103,7 @@ public class Juegos {
         estado = Boolean.parseBoolean(JOptionPane.showInputDialog("estado"));
         unidades = Integer.parseInt(JOptionPane.showInputDialog("unidades"));
 
-        Juegos j1 = new Juegos(nombre, tipo, consola, dlc, precio, estado, unidades, codigo);
+        Juegos j1 = new Juegos(nombre, tipo, consola, dlc, precio, estado, unidades);
         return j1;
 
     }

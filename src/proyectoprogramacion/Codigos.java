@@ -14,9 +14,9 @@ import ficheros.Lectura;
 public class Codigos {
     
     
-    public void codigo(){
-        Lectura l = new Lectura();
-        l.leer("codigos.txt");
-                 
-    }
+//    public void codigo(){
+//        Lectura l = new Lectura();
+//        l.leer("codigos.txt");
+//                 
+//    }
 }
